@@ -7,14 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C2687D0209DE68A0004236D /* EventsViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2687CF209DE68A0004236D /* EventsViewHeader.swift */; };
+		3CB6982E206944340009647A /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB6982D206944340009647A /* Endpoint.swift */; };
+		3CB69831206947730009647A /* GenericAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB69830206947730009647A /* GenericAPIClient.swift */; };
+		3CB698332069478F0009647A /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB698322069478E0009647A /* Result.swift */; };
+		3CB69835206947B00009647A /* YesplanClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB69834206947B00009647A /* YesplanClient.swift */; };
+		3CB69837206947E00009647A /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB69836206947E00009647A /* Event.swift */; };
+		3CB6983A2069481C0009647A /* MovieFeedResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB698392069481C0009647A /* MovieFeedResult.swift */; };
+		3CB6983C206949190009647A /* MovieFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB6983B206949190009647A /* MovieFeedViewController.swift */; };
+		3CB6983E2069782A0009647A /* Pagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB6983D2069782A0009647A /* Pagination.swift */; };
+		3CB6984020697B140009647A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB6983F20697B140009647A /* User.swift */; };
+		3CB6984220697B620009647A /* Usergroup_Id.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB6984120697B620009647A /* Usergroup_Id.swift */; };
+		3CB6984420697B890009647A /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB6984320697B890009647A /* Base.swift */; };
+		3CB69846206A5DC70009647A /* EventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB69845206A5DC70009647A /* EventsView.swift */; };
+		3CB69849206A5EE80009647A /* EventsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB69848206A5EE80009647A /* EventsViewCell.swift */; };
+		3CB6984B206ABE3A0009647A /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB6984A206ABE3A0009647A /* Status.swift */; };
+		3CB6984D206AC0260009647A /* EventsResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB6984C206AC0260009647A /* EventsResult.swift */; };
+		3CB6984F206ACC320009647A /* EventStatusesResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB6984E206ACC320009647A /* EventStatusesResult.swift */; };
+		3CB69851206AD4140009647A /* YesplanResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB69850206AD4140009647A /* YesplanResult.swift */; };
+		3CB69853206CF53A0009647A /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB69852206CF53A0009647A /* TasksView.swift */; };
+		3CB69856206CF5DD0009647A /* TasksViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB69855206CF5DD0009647A /* TasksViewCell.swift */; };
+		3CB69858206CFA6F0009647A /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB69857206CFA6F0009647A /* Task.swift */; };
+		3CB6985A206CFF570009647A /* TasksResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB69859206CFF570009647A /* TasksResult.swift */; };
+		3CB6985C206D44E30009647A /* JSONValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB6985B206D44E20009647A /* JSONValue.swift */; };
+		3CDE08E3206E1FB600ED9418 /* jSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDE08E2206E1FB600ED9418 /* jSON.swift */; };
 		3CEE4C9E2066DE3700B66136 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4C9D2066DE3700B66136 /* AppDelegate.swift */; };
-		3CEE4CA02066DE3700B66136 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4C9F2066DE3700B66136 /* ViewController.swift */; };
 		3CEE4CA32066DE3700B66136 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CEE4CA12066DE3700B66136 /* Main.storyboard */; };
 		3CEE4CA62066DE3700B66136 /* YesplanCS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4CA42066DE3700B66136 /* YesplanCS.xcdatamodeld */; };
 		3CEE4CA82066DE3700B66136 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CEE4CA72066DE3700B66136 /* Assets.xcassets */; };
 		3CEE4CAB2066DE3700B66136 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CEE4CA92066DE3700B66136 /* LaunchScreen.storyboard */; };
 		3CEE4CB62066DE3800B66136 /* YesplanCSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4CB52066DE3800B66136 /* YesplanCSTests.swift */; };
 		3CEE4CC12066DE3800B66136 /* YesplanCSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4CC02066DE3800B66136 /* YesplanCSUITests.swift */; };
+		3CEE4CCF2066E2E000B66136 /* MainTabBarControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4CCE2066E2E000B66136 /* MainTabBarControllerViewController.swift */; };
+		3CEE4CD62066E33F00B66136 /* EventsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4CD02066E33F00B66136 /* EventsPresenter.swift */; };
+		3CEE4CD72066E33F00B66136 /* EventsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4CD12066E33F00B66136 /* EventsWorker.swift */; };
+		3CEE4CD82066E33F00B66136 /* EventsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4CD22066E33F00B66136 /* EventsRouter.swift */; };
+		3CEE4CD92066E33F00B66136 /* EventsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4CD32066E33F00B66136 /* EventsModels.swift */; };
+		3CEE4CDA2066E33F00B66136 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4CD42066E33F00B66136 /* EventsViewController.swift */; };
+		3CEE4CDB2066E33F00B66136 /* EventsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4CD52066E33F00B66136 /* EventsInteractor.swift */; };
+		3CEE4CE42066E3A400B66136 /* TasksPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4CDE2066E3A400B66136 /* TasksPresenter.swift */; };
+		3CEE4CE52066E3A400B66136 /* TasksWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4CDF2066E3A400B66136 /* TasksWorker.swift */; };
+		3CEE4CE62066E3A400B66136 /* TasksRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4CE02066E3A400B66136 /* TasksRouter.swift */; };
+		3CEE4CE72066E3A400B66136 /* TasksModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4CE12066E3A400B66136 /* TasksModels.swift */; };
+		3CEE4CE82066E3A400B66136 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4CE22066E3A400B66136 /* TasksViewController.swift */; };
+		3CEE4CE92066E3A400B66136 /* TasksInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4CE32066E3A400B66136 /* TasksInteractor.swift */; };
+		3CEE4CF12066E8EF00B66136 /* ContactsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4CEB2066E8EF00B66136 /* ContactsPresenter.swift */; };
+		3CEE4CF22066E8EF00B66136 /* ContactsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4CEC2066E8EF00B66136 /* ContactsWorker.swift */; };
+		3CEE4CF32066E8EF00B66136 /* ContactsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4CED2066E8EF00B66136 /* ContactsRouter.swift */; };
+		3CEE4CF42066E8EF00B66136 /* ContactsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4CEE2066E8EF00B66136 /* ContactsModels.swift */; };
+		3CEE4CF52066E8EF00B66136 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4CEF2066E8EF00B66136 /* ContactsViewController.swift */; };
+		3CEE4CF62066E8EF00B66136 /* ContactsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4CF02066E8EF00B66136 /* ContactsInteractor.swift */; };
+		3CEE4CFE2066E91700B66136 /* TeamplannerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4CF82066E91700B66136 /* TeamplannerPresenter.swift */; };
+		3CEE4CFF2066E91700B66136 /* TeamplannerWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4CF92066E91700B66136 /* TeamplannerWorker.swift */; };
+		3CEE4D002066E91700B66136 /* TeamplannerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4CFA2066E91700B66136 /* TeamplannerRouter.swift */; };
+		3CEE4D012066E91700B66136 /* TeamplannerModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4CFB2066E91700B66136 /* TeamplannerModels.swift */; };
+		3CEE4D022066E91700B66136 /* TeamplannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4CFC2066E91700B66136 /* TeamplannerViewController.swift */; };
+		3CEE4D032066E91700B66136 /* TeamplannerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4CFD2066E91700B66136 /* TeamplannerInteractor.swift */; };
+		3CEE4D0B2066E94200B66136 /* ToDoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4D052066E94200B66136 /* ToDoPresenter.swift */; };
+		3CEE4D0C2066E94200B66136 /* ToDoWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4D062066E94200B66136 /* ToDoWorker.swift */; };
+		3CEE4D0D2066E94200B66136 /* ToDoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4D072066E94200B66136 /* ToDoRouter.swift */; };
+		3CEE4D0E2066E94200B66136 /* ToDoModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4D082066E94200B66136 /* ToDoModels.swift */; };
+		3CEE4D0F2066E94200B66136 /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4D092066E94200B66136 /* ToDoViewController.swift */; };
+		3CEE4D102066E94200B66136 /* ToDoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4D0A2066E94200B66136 /* ToDoInteractor.swift */; };
+		3CEE4D182066EAA100B66136 /* UserPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4D122066EAA100B66136 /* UserPresenter.swift */; };
+		3CEE4D192066EAA100B66136 /* UserWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4D132066EAA100B66136 /* UserWorker.swift */; };
+		3CEE4D1A2066EAA100B66136 /* UserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4D142066EAA100B66136 /* UserRouter.swift */; };
+		3CEE4D1B2066EAA100B66136 /* UserModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4D152066EAA100B66136 /* UserModels.swift */; };
+		3CEE4D1C2066EAA100B66136 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4D162066EAA100B66136 /* UserViewController.swift */; };
+		3CEE4D1D2066EAA100B66136 /* UserInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE4D172066EAA100B66136 /* UserInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +95,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C2687CF209DE68A0004236D /* EventsViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewHeader.swift; sourceTree = "<group>"; };
+		3CB6982D206944340009647A /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		3CB69830206947730009647A /* GenericAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericAPIClient.swift; sourceTree = "<group>"; };
+		3CB698322069478E0009647A /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		3CB69834206947B00009647A /* YesplanClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YesplanClient.swift; sourceTree = "<group>"; };
+		3CB69836206947E00009647A /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		3CB698392069481C0009647A /* MovieFeedResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieFeedResult.swift; sourceTree = "<group>"; };
+		3CB6983B206949190009647A /* MovieFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieFeedViewController.swift; sourceTree = "<group>"; };
+		3CB6983D2069782A0009647A /* Pagination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagination.swift; sourceTree = "<group>"; };
+		3CB6983F20697B140009647A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3CB6984120697B620009647A /* Usergroup_Id.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usergroup_Id.swift; sourceTree = "<group>"; };
+		3CB6984320697B890009647A /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		3CB69845206A5DC70009647A /* EventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsView.swift; sourceTree = "<group>"; };
+		3CB69848206A5EE80009647A /* EventsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewCell.swift; sourceTree = "<group>"; };
+		3CB6984A206ABE3A0009647A /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		3CB6984C206AC0260009647A /* EventsResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsResult.swift; sourceTree = "<group>"; };
+		3CB6984E206ACC320009647A /* EventStatusesResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventStatusesResult.swift; sourceTree = "<group>"; };
+		3CB69850206AD4140009647A /* YesplanResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YesplanResult.swift; sourceTree = "<group>"; };
+		3CB69852206CF53A0009647A /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		3CB69855206CF5DD0009647A /* TasksViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewCell.swift; sourceTree = "<group>"; };
+		3CB69857206CFA6F0009647A /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		3CB69859206CFF570009647A /* TasksResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksResult.swift; sourceTree = "<group>"; };
+		3CB6985B206D44E20009647A /* JSONValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONValue.swift; sourceTree = "<group>"; };
+		3CDE08E2206E1FB600ED9418 /* jSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jSON.swift; sourceTree = "<group>"; };
 		3CEE4C9A2066DE3700B66136 /* YesplanCS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YesplanCS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CEE4C9D2066DE3700B66136 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3CEE4C9F2066DE3700B66136 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3CEE4CA22066DE3700B66136 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CEE4CA52066DE3700B66136 /* YesplanCS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YesplanCS.xcdatamodel; sourceTree = "<group>"; };
 		3CEE4CA72066DE3700B66136 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +132,43 @@
 		3CEE4CBC2066DE3800B66136 /* YesplanCSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YesplanCSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CEE4CC02066DE3800B66136 /* YesplanCSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YesplanCSUITests.swift; sourceTree = "<group>"; };
 		3CEE4CC22066DE3800B66136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CEE4CCE2066E2E000B66136 /* MainTabBarControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarControllerViewController.swift; sourceTree = "<group>"; };
+		3CEE4CD02066E33F00B66136 /* EventsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsPresenter.swift; sourceTree = "<group>"; };
+		3CEE4CD12066E33F00B66136 /* EventsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsWorker.swift; sourceTree = "<group>"; };
+		3CEE4CD22066E33F00B66136 /* EventsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsRouter.swift; sourceTree = "<group>"; };
+		3CEE4CD32066E33F00B66136 /* EventsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsModels.swift; sourceTree = "<group>"; };
+		3CEE4CD42066E33F00B66136 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		3CEE4CD52066E33F00B66136 /* EventsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsInteractor.swift; sourceTree = "<group>"; };
+		3CEE4CDE2066E3A400B66136 /* TasksPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksPresenter.swift; sourceTree = "<group>"; };
+		3CEE4CDF2066E3A400B66136 /* TasksWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksWorker.swift; sourceTree = "<group>"; };
+		3CEE4CE02066E3A400B66136 /* TasksRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksRouter.swift; sourceTree = "<group>"; };
+		3CEE4CE12066E3A400B66136 /* TasksModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksModels.swift; sourceTree = "<group>"; };
+		3CEE4CE22066E3A400B66136 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		3CEE4CE32066E3A400B66136 /* TasksInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksInteractor.swift; sourceTree = "<group>"; };
+		3CEE4CEB2066E8EF00B66136 /* ContactsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsPresenter.swift; sourceTree = "<group>"; };
+		3CEE4CEC2066E8EF00B66136 /* ContactsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsWorker.swift; sourceTree = "<group>"; };
+		3CEE4CED2066E8EF00B66136 /* ContactsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsRouter.swift; sourceTree = "<group>"; };
+		3CEE4CEE2066E8EF00B66136 /* ContactsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsModels.swift; sourceTree = "<group>"; };
+		3CEE4CEF2066E8EF00B66136 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		3CEE4CF02066E8EF00B66136 /* ContactsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsInteractor.swift; sourceTree = "<group>"; };
+		3CEE4CF82066E91700B66136 /* TeamplannerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamplannerPresenter.swift; sourceTree = "<group>"; };
+		3CEE4CF92066E91700B66136 /* TeamplannerWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamplannerWorker.swift; sourceTree = "<group>"; };
+		3CEE4CFA2066E91700B66136 /* TeamplannerRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamplannerRouter.swift; sourceTree = "<group>"; };
+		3CEE4CFB2066E91700B66136 /* TeamplannerModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamplannerModels.swift; sourceTree = "<group>"; };
+		3CEE4CFC2066E91700B66136 /* TeamplannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamplannerViewController.swift; sourceTree = "<group>"; };
+		3CEE4CFD2066E91700B66136 /* TeamplannerInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamplannerInteractor.swift; sourceTree = "<group>"; };
+		3CEE4D052066E94200B66136 /* ToDoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoPresenter.swift; sourceTree = "<group>"; };
+		3CEE4D062066E94200B66136 /* ToDoWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoWorker.swift; sourceTree = "<group>"; };
+		3CEE4D072066E94200B66136 /* ToDoRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoRouter.swift; sourceTree = "<group>"; };
+		3CEE4D082066E94200B66136 /* ToDoModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoModels.swift; sourceTree = "<group>"; };
+		3CEE4D092066E94200B66136 /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
+		3CEE4D0A2066E94200B66136 /* ToDoInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoInteractor.swift; sourceTree = "<group>"; };
+		3CEE4D122066EAA100B66136 /* UserPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPresenter.swift; sourceTree = "<group>"; };
+		3CEE4D132066EAA100B66136 /* UserWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserWorker.swift; sourceTree = "<group>"; };
+		3CEE4D142066EAA100B66136 /* UserRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRouter.swift; sourceTree = "<group>"; };
+		3CEE4D152066EAA100B66136 /* UserModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModels.swift; sourceTree = "<group>"; };
+		3CEE4D162066EAA100B66136 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		3CEE4D172066EAA100B66136 /* UserInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +196,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CB6982F206944380009647A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				3CB6982D206944340009647A /* Endpoint.swift */,
+				3CB69830206947730009647A /* GenericAPIClient.swift */,
+				3CB698322069478E0009647A /* Result.swift */,
+				3CB69834206947B00009647A /* YesplanClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		3CB69838206947E60009647A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3CB69836206947E00009647A /* Event.swift */,
+				3CB69850206AD4140009647A /* YesplanResult.swift */,
+				3CB698392069481C0009647A /* MovieFeedResult.swift */,
+				3CB6984C206AC0260009647A /* EventsResult.swift */,
+				3CB6984E206ACC320009647A /* EventStatusesResult.swift */,
+				3CB6983D2069782A0009647A /* Pagination.swift */,
+				3CB6983F20697B140009647A /* User.swift */,
+				3CB6984120697B620009647A /* Usergroup_Id.swift */,
+				3CB6984320697B890009647A /* Base.swift */,
+				3CB6984A206ABE3A0009647A /* Status.swift */,
+				3CB69857206CFA6F0009647A /* Task.swift */,
+				3CB69859206CFF570009647A /* TasksResult.swift */,
+				3CB6985B206D44E20009647A /* JSONValue.swift */,
+				3CDE08E2206E1FB600ED9418 /* jSON.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3CB69847206A5DCE0009647A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3CB69845206A5DC70009647A /* EventsView.swift */,
+				3CB69848206A5EE80009647A /* EventsViewCell.swift */,
+				3C2687CF209DE68A0004236D /* EventsViewHeader.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3CB69854206CF5C30009647A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3CB69852206CF53A0009647A /* TasksView.swift */,
+				3CB69855206CF5DD0009647A /* TasksViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		3CEE4C912066DE3700B66136 = {
 			isa = PBXGroup;
 			children = (
@@ -100,12 +271,16 @@
 			isa = PBXGroup;
 			children = (
 				3CEE4C9D2066DE3700B66136 /* AppDelegate.swift */,
-				3CEE4C9F2066DE3700B66136 /* ViewController.swift */,
+				3CEE4CCE2066E2E000B66136 /* MainTabBarControllerViewController.swift */,
+				3CEE4CDD2066E35200B66136 /* Scenes */,
 				3CEE4CA12066DE3700B66136 /* Main.storyboard */,
 				3CEE4CA72066DE3700B66136 /* Assets.xcassets */,
 				3CEE4CA92066DE3700B66136 /* LaunchScreen.storyboard */,
 				3CEE4CAC2066DE3700B66136 /* Info.plist */,
 				3CEE4CA42066DE3700B66136 /* YesplanCS.xcdatamodeld */,
+				3CB6982F206944380009647A /* Networking */,
+				3CB69838206947E60009647A /* Models */,
+				3CB6983B206949190009647A /* MovieFeedViewController.swift */,
 			);
 			path = YesplanCS;
 			sourceTree = "<group>";
@@ -126,6 +301,100 @@
 				3CEE4CC22066DE3800B66136 /* Info.plist */,
 			);
 			path = YesplanCSUITests;
+			sourceTree = "<group>";
+		};
+		3CEE4CDC2066E34900B66136 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				3CB69847206A5DCE0009647A /* Views */,
+				3CEE4CD32066E33F00B66136 /* EventsModels.swift */,
+				3CEE4CD22066E33F00B66136 /* EventsRouter.swift */,
+				3CEE4CD12066E33F00B66136 /* EventsWorker.swift */,
+				3CEE4CD52066E33F00B66136 /* EventsInteractor.swift */,
+				3CEE4CD02066E33F00B66136 /* EventsPresenter.swift */,
+				3CEE4CD42066E33F00B66136 /* EventsViewController.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		3CEE4CDD2066E35200B66136 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				3CEE4CDC2066E34900B66136 /* Events */,
+				3CEE4CEA2066E3A900B66136 /* Tasks */,
+				3CEE4CF72066E8F300B66136 /* Contacts */,
+				3CEE4D042066E91B00B66136 /* Teamplanner */,
+				3CEE4D112066E94800B66136 /* ToDo */,
+				3CEE4D1E2066EAA600B66136 /* User */,
+			);
+			name = Scenes;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		3CEE4CEA2066E3A900B66136 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				3CB69854206CF5C30009647A /* Views */,
+				3CEE4CE02066E3A400B66136 /* TasksRouter.swift */,
+				3CEE4CDF2066E3A400B66136 /* TasksWorker.swift */,
+				3CEE4CE32066E3A400B66136 /* TasksInteractor.swift */,
+				3CEE4CE12066E3A400B66136 /* TasksModels.swift */,
+				3CEE4CDE2066E3A400B66136 /* TasksPresenter.swift */,
+				3CEE4CE22066E3A400B66136 /* TasksViewController.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		3CEE4CF72066E8F300B66136 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				3CEE4CEB2066E8EF00B66136 /* ContactsPresenter.swift */,
+				3CEE4CEC2066E8EF00B66136 /* ContactsWorker.swift */,
+				3CEE4CED2066E8EF00B66136 /* ContactsRouter.swift */,
+				3CEE4CEE2066E8EF00B66136 /* ContactsModels.swift */,
+				3CEE4CEF2066E8EF00B66136 /* ContactsViewController.swift */,
+				3CEE4CF02066E8EF00B66136 /* ContactsInteractor.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		3CEE4D042066E91B00B66136 /* Teamplanner */ = {
+			isa = PBXGroup;
+			children = (
+				3CEE4CF82066E91700B66136 /* TeamplannerPresenter.swift */,
+				3CEE4CF92066E91700B66136 /* TeamplannerWorker.swift */,
+				3CEE4CFA2066E91700B66136 /* TeamplannerRouter.swift */,
+				3CEE4CFB2066E91700B66136 /* TeamplannerModels.swift */,
+				3CEE4CFC2066E91700B66136 /* TeamplannerViewController.swift */,
+				3CEE4CFD2066E91700B66136 /* TeamplannerInteractor.swift */,
+			);
+			path = Teamplanner;
+			sourceTree = "<group>";
+		};
+		3CEE4D112066E94800B66136 /* ToDo */ = {
+			isa = PBXGroup;
+			children = (
+				3CEE4D052066E94200B66136 /* ToDoPresenter.swift */,
+				3CEE4D062066E94200B66136 /* ToDoWorker.swift */,
+				3CEE4D072066E94200B66136 /* ToDoRouter.swift */,
+				3CEE4D082066E94200B66136 /* ToDoModels.swift */,
+				3CEE4D092066E94200B66136 /* ToDoViewController.swift */,
+				3CEE4D0A2066E94200B66136 /* ToDoInteractor.swift */,
+			);
+			path = ToDo;
+			sourceTree = "<group>";
+		};
+		3CEE4D1E2066EAA600B66136 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				3CEE4D122066EAA100B66136 /* UserPresenter.swift */,
+				3CEE4D132066EAA100B66136 /* UserWorker.swift */,
+				3CEE4D142066EAA100B66136 /* UserRouter.swift */,
+				3CEE4D152066EAA100B66136 /* UserModels.swift */,
+				3CEE4D162066EAA100B66136 /* UserViewController.swift */,
+				3CEE4D172066EAA100B66136 /* UserInteractor.swift */,
+			);
+			path = User;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,7 +460,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Yesplan;
 				TargetAttributes = {
 					3CEE4C992066DE3700B66136 = {
@@ -262,9 +531,69 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CEE4CE72066E3A400B66136 /* TasksModels.swift in Sources */,
 				3CEE4CA62066DE3700B66136 /* YesplanCS.xcdatamodeld in Sources */,
-				3CEE4CA02066DE3700B66136 /* ViewController.swift in Sources */,
+				3CEE4D002066E91700B66136 /* TeamplannerRouter.swift in Sources */,
+				3CB69858206CFA6F0009647A /* Task.swift in Sources */,
+				3CB6983A2069481C0009647A /* MovieFeedResult.swift in Sources */,
+				3CEE4CE42066E3A400B66136 /* TasksPresenter.swift in Sources */,
+				3CB6984B206ABE3A0009647A /* Status.swift in Sources */,
+				3CEE4CE82066E3A400B66136 /* TasksViewController.swift in Sources */,
+				3CEE4CDA2066E33F00B66136 /* EventsViewController.swift in Sources */,
+				3CEE4CF62066E8EF00B66136 /* ContactsInteractor.swift in Sources */,
+				3CB69851206AD4140009647A /* YesplanResult.swift in Sources */,
+				3CEE4CF42066E8EF00B66136 /* ContactsModels.swift in Sources */,
+				3CEE4D0F2066E94200B66136 /* ToDoViewController.swift in Sources */,
+				3CEE4CE52066E3A400B66136 /* TasksWorker.swift in Sources */,
+				3CB69849206A5EE80009647A /* EventsViewCell.swift in Sources */,
+				3CB6984D206AC0260009647A /* EventsResult.swift in Sources */,
+				3CEE4CFE2066E91700B66136 /* TeamplannerPresenter.swift in Sources */,
+				3CB6984220697B620009647A /* Usergroup_Id.swift in Sources */,
+				3CEE4D012066E91700B66136 /* TeamplannerModels.swift in Sources */,
+				3CDE08E3206E1FB600ED9418 /* jSON.swift in Sources */,
+				3CB69837206947E00009647A /* Event.swift in Sources */,
+				3CEE4CFF2066E91700B66136 /* TeamplannerWorker.swift in Sources */,
+				3CEE4D0B2066E94200B66136 /* ToDoPresenter.swift in Sources */,
+				3CEE4CE92066E3A400B66136 /* TasksInteractor.swift in Sources */,
+				3CEE4D0D2066E94200B66136 /* ToDoRouter.swift in Sources */,
+				3CEE4CD62066E33F00B66136 /* EventsPresenter.swift in Sources */,
+				3CEE4CF52066E8EF00B66136 /* ContactsViewController.swift in Sources */,
+				3CB6984020697B140009647A /* User.swift in Sources */,
+				3CB698332069478F0009647A /* Result.swift in Sources */,
+				3CB6985A206CFF570009647A /* TasksResult.swift in Sources */,
+				3CEE4CF22066E8EF00B66136 /* ContactsWorker.swift in Sources */,
+				3CB69853206CF53A0009647A /* TasksView.swift in Sources */,
+				3CEE4D1D2066EAA100B66136 /* UserInteractor.swift in Sources */,
+				3CEE4D022066E91700B66136 /* TeamplannerViewController.swift in Sources */,
 				3CEE4C9E2066DE3700B66136 /* AppDelegate.swift in Sources */,
+				3CEE4CF12066E8EF00B66136 /* ContactsPresenter.swift in Sources */,
+				3CEE4D192066EAA100B66136 /* UserWorker.swift in Sources */,
+				3CEE4D1B2066EAA100B66136 /* UserModels.swift in Sources */,
+				3CEE4CF32066E8EF00B66136 /* ContactsRouter.swift in Sources */,
+				3CEE4CD92066E33F00B66136 /* EventsModels.swift in Sources */,
+				3CB6984420697B890009647A /* Base.swift in Sources */,
+				3CEE4CE62066E3A400B66136 /* TasksRouter.swift in Sources */,
+				3CB69835206947B00009647A /* YesplanClient.swift in Sources */,
+				3CEE4D182066EAA100B66136 /* UserPresenter.swift in Sources */,
+				3CB69856206CF5DD0009647A /* TasksViewCell.swift in Sources */,
+				3CEE4CD82066E33F00B66136 /* EventsRouter.swift in Sources */,
+				3CEE4D032066E91700B66136 /* TeamplannerInteractor.swift in Sources */,
+				3C2687D0209DE68A0004236D /* EventsViewHeader.swift in Sources */,
+				3CEE4D0E2066E94200B66136 /* ToDoModels.swift in Sources */,
+				3CEE4D102066E94200B66136 /* ToDoInteractor.swift in Sources */,
+				3CEE4D1A2066EAA100B66136 /* UserRouter.swift in Sources */,
+				3CB69846206A5DC70009647A /* EventsView.swift in Sources */,
+				3CB69831206947730009647A /* GenericAPIClient.swift in Sources */,
+				3CB6983C206949190009647A /* MovieFeedViewController.swift in Sources */,
+				3CB6982E206944340009647A /* Endpoint.swift in Sources */,
+				3CEE4CCF2066E2E000B66136 /* MainTabBarControllerViewController.swift in Sources */,
+				3CB6985C206D44E30009647A /* JSONValue.swift in Sources */,
+				3CEE4CD72066E33F00B66136 /* EventsWorker.swift in Sources */,
+				3CEE4D0C2066E94200B66136 /* ToDoWorker.swift in Sources */,
+				3CEE4CDB2066E33F00B66136 /* EventsInteractor.swift in Sources */,
+				3CB6983E2069782A0009647A /* Pagination.swift in Sources */,
+				3CB6984F206ACC320009647A /* EventStatusesResult.swift in Sources */,
+				3CEE4D1C2066EAA100B66136 /* UserViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +662,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -340,6 +670,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -390,6 +721,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -397,6 +729,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
