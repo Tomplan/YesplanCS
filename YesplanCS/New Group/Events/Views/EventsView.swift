@@ -15,7 +15,7 @@ class EventsView: UIView {
     let spinner = UIActivityIndicatorView(activityIndicatorStyle: .gray) // UIActivityIndicatorView(activityIndicatorStyle: .gray)
     
     // MARK:- Initializers:
-    init() {
+    init() { 
         
         // eventsCollectionView
         let flowLayout = UICollectionViewFlowLayout()
